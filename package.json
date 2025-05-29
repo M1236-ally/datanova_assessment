@@ -1,0 +1,10 @@
+{
+  "name": "datanova_assessment",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run start --prefix server\"",
+    "test": "vitest run --root server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
